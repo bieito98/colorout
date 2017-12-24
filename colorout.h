@@ -28,8 +28,8 @@ hex_color visiblewithCol (hex_color);
 char hexctochar (hex_color);
 char * hexctostr (hex_color, int);
 void printCol (color);
-void paintBg (hex_color);
-void paintFg (hex_color);
+void setBgCol (hex_color);
+void setFgCol (hex_color);
 void resetCol ();
 
 void printTest (hex_color);
